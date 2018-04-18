@@ -21,12 +21,11 @@ namespace AzureStorageSample
 
         private class AzureConfiguration
         {
-            public static string StorageContainerName = "myazureblobcontainer";
-            public static string StorageAcccountName = "portalvhdswxs6mj9gfl2sq";
-            public static string StorageAccountKey = "RzxsY0hk24ikQrIpphFgVdEtc7zGk0eH89npEowoZObwVDBQt3DR+gwYgeKLkvDCFiPHcrORix6C5SJ97WoEUA==";
+            public static string StorageAcccountName = "";
+            public static string StorageAccountKey = "";
+            public static string StorageContainerName = "";
             public static string StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=" + StorageAcccountName + ";AccountKey=" + StorageAccountKey;
             
-
             public static CloudStorageAccount Account = CloudStorageAccount.Parse(StorageConnectionString);
         }
 
